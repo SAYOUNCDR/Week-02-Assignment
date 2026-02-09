@@ -1,16 +1,22 @@
-# React + Vite
+# Student Details
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Name:** Sayoun Parui
+- **Email:** sayounparui45@gmail
+- **Registration Number:** 12306183
+- **Roll Number:** 15
 
-Currently, two official plugins are available:
+## Assignment Details - Week 02
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Assignment Link:** [Week 02 Assignment](http://localhost:5173/assignment)
+- **GitHub Repository Link:** [GitHub Repository](https://github.com/SAYOUNCDR/Week-02-Assignment)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Assigment Description
 
-## Expanding the ESLint configuration
+This assignment has three components:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Cat Widget** - A simple widget that displays a random cat quotes. It should have a button to fetch a new cat quote.
+
+2. **Github User Search** - A component that allows users to search for GitHub users and displays their information.
+
+3. **Product Dashboard** - A dashboard that displays a list of products with their prices and allows users to add or remove products from the cart.
