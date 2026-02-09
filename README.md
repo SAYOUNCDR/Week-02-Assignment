@@ -7,7 +7,7 @@
 
 ## Assignment Details - Week 02
 
-- **Assignment Link:** [Week 02 Assignment](http://localhost:5173/assignment)
+- **Assignment Link:** [Week 02 Assignment](https://week-02-assignment.vercel.app/)
 - **GitHub Repository Link:** [GitHub Repository](https://github.com/SAYOUNCDR/Week-02-Assignment)
 
 
