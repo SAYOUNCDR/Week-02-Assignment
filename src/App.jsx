@@ -4,6 +4,7 @@ import ProductDashBoard from "./Components/ProductDashBoard";
 import Page from "./Week03/PS01/Page";
 import CharacterWarning from "./Week03/PS02/CharacterWarning";
 import TempratureChange from "./Week03/PS03/TempratureChange";
+import MessageHistory from "./Week03/PS04/MessageHistory";
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <CharacterWarning />
 
       <TempratureChange />
+
+      <MessageHistory />
 
 
       <h1 className="text-center text-md font-bold">Week 2 Problem Set</h1>
