@@ -1,4 +1,3 @@
-import React from "react";
 import { useTemprature } from "./useTemprature";
 
 const TemperatureInput = ({ value, onChange, placeholder, label }) => {
