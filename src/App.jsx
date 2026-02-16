@@ -3,6 +3,7 @@ import GithubUserSearch from "./Components/GithubUserSearch";
 import ProductDashBoard from "./Components/ProductDashBoard";
 import Page from "./Week03/PS01/Page";
 import CharacterWarning from "./Week03/PS02/CharacterWarning";
+import TempratureChange from "./Week03/PS03/TempratureChange";
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       <Page />
 
       <CharacterWarning />
+
+      <TempratureChange />
 
 
       <h1 className="text-center text-md font-bold">Week 2 Problem Set</h1>
