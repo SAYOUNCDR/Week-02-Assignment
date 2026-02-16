@@ -11,7 +11,7 @@ const GithubUserSearch = () => {
   const fetchUserData = async () => {
     try {
       const userResponse = await fetch(
-        `https://api.github.com/users/${username}`,
+        `https://api.github.com/users/${username}`, // This is also for checking if the api is working and see the response structure for making ui
       );
       if (!userResponse.ok) {
         throw new Error("User not found");
@@ -20,7 +20,7 @@ const GithubUserSearch = () => {
       console.log("User Data:", userData);
       setUserData(userData);
       const reposResponse = await fetch(
-        `https://api.github.com/users/${username}/repos?sort=created&per_page=5`,
+        `https://api.github.com/users/${username}/repos?sort=created&per_page=5`, // Same here this is also fro api response checking if its up or not and response structure for making ui
       );
       if (!reposResponse.ok) {
         throw new Error("Could not fetch repositories");

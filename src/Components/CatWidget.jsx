@@ -6,7 +6,7 @@ const CatWidget = () => {
     try {
       const response = await fetch("https://catfact.ninja/fact");
       const data = await response.json();
-      console.log(data.fact);
+      console.log(data.fact); // This was only for checking if the API call was successful and to see the structure of response for making ui
       setData(data.fact);
     } catch (error) {
       console.error("Error fetching cat fact:", error);
