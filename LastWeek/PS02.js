@@ -3,12 +3,10 @@ const app = express();
 
 app.use(express.json());
 
-
 app.use((req, res, next) => {
   console.log(`Logging middleware is called: ${req.method} ${req.url}`);
   next();
 });
-
 
 const validateProduct = (req, res, next) => {
   const { name, price } = req.body;
@@ -33,7 +31,6 @@ app.post("/product", validateProduct, (req, res) => {
   products.push(product);
   res.status(201).json({ message: "Product added successfully", product });
 });
-
 
 app.listen(3001, () => {
   console.log(`Server is running on port 3001`);
